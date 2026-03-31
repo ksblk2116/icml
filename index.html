@@ -3,53 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anonymous Reconstruction Comparison</title>
+    <title>Anonymous Visual Comparison</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <div class="header-inner">
+      <div class="page-shell">
         <p class="eyebrow">Anonymous project page</p>
-        <h1 id="site-title">Anonymous Reconstruction Comparison</h1>
+        <h1 id="site-title">Anonymous Visual Comparison</h1>
         <p id="site-subtitle" class="subtitle"></p>
       </div>
     </header>
 
-    <main class="page-body">
-      <section class="note">
-        <p>
-          Edit <code>data/selections.json</code> to change titles, labels, or the
-          5 image IDs shown in each comparison.
-        </p>
-      </section>
+    <main class="page-shell page-body">
       <div id="app"></div>
     </main>
 
-    <template id="comparison-template">
-      <section class="comparison-section">
+    <template id="section-template">
+      <section class="content-section">
         <div class="section-heading">
-          <h2 class="comparison-title"></h2>
-          <p class="comparison-meta"></p>
+          <div>
+            <h2 class="section-title"></h2>
+            <p class="section-description"></p>
+          </div>
         </div>
-        <div class="comparison-grid"></div>
+        <div class="section-comparisons"></div>
       </section>
     </template>
 
-    <template id="row-template">
-      <article class="comparison-row">
-        <div class="image-card">
-          <div class="image-label"></div>
-          <img loading="lazy" alt="" />
+    <template id="comparison-template">
+      <article class="comparison-card">
+        <div class="comparison-header">
+          <div>
+            <h3 class="comparison-title"></h3>
+            <p class="comparison-meta"></p>
+          </div>
+          <div class="slider-controls">
+            <button class="nav-button prev-button" type="button" aria-label="Previous slide">
+              ←
+            </button>
+            <span class="slide-indicator"></span>
+            <button class="nav-button next-button" type="button" aria-label="Next slide">
+              →
+            </button>
+          </div>
         </div>
-        <div class="image-card">
-          <div class="image-label"></div>
-          <img loading="lazy" alt="" />
-        </div>
-        <div class="image-card ours-card">
-          <div class="image-label"></div>
-          <img loading="lazy" alt="" />
+        <div class="slider-viewport">
+          <div class="slider-track"></div>
         </div>
       </article>
+    </template>
+
+    <template id="slide-template">
+      <div class="slide">
+        <div class="slide-grid"></div>
+        <p class="slide-caption"></p>
+      </div>
+    </template>
+
+    <template id="image-card-template">
+      <figure class="image-card">
+        <figcaption class="image-label"></figcaption>
+        <img loading="lazy" alt="" />
+      </figure>
     </template>
 
     <script src="app.js"></script>

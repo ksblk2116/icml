@@ -1,0 +1,1331 @@
+{
+  "site": {
+    "title": "Anonymous Visual Comparison",
+    "subtitle": "Qualitative comparison page for rebuttal, including reconstruction and generation results."
+  },
+  "sections": [
+    {
+      "id": "reconstruction",
+      "title": "Reconstruction",
+      "description": "The first 15 samples are shown for each model.",
+      "comparisons": [
+        {
+          "id": "simvq_262144",
+          "title": "SimVQ, 262144",
+          "meta": "Showing the first 15 examples with a slider.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/1.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/1.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 2,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/2.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/2.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 3,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/3.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/3.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 4,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/4.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/4.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 5,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/5.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/5.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/5.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 6,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/6.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/6.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/6.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 7,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/7.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/7.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/7.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 8,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/8.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/8.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/8.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 9,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/9.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/9.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/9.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 10,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/10.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/10.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/10.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 11,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/11.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/11.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/11.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 12,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/12.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/12.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/12.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 13,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/13.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/13.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/13.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 14,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/14.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/14.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/14.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 15,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/15.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/15.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/15.png",
+                  "highlight": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ibq_16384",
+          "title": "IBQ, 16384",
+          "meta": "Showing the first 15 examples with a slider.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/1.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/1.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 2,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/2.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/2.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 3,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/3.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/3.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 4,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/4.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/4.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 5,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/5.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/5.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/5.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 6,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/6.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/6.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/6.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 7,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/7.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/7.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/7.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 8,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/8.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/8.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/8.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 9,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/9.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/9.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/9.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 10,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/10.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/10.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/10.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 11,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/11.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/11.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/11.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 12,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/12.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/12.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/12.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 13,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/13.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/13.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/13.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 14,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/14.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/14.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/14.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 15,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_16384/source/15.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_16384/baseline/15.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_16384/ours/15.png",
+                  "highlight": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "simvq_65536",
+          "title": "SimVQ, 65536",
+          "meta": "Showing the first 15 examples with a slider.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/1.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/1.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 2,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/2.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/2.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 3,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/3.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/3.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 4,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/4.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/4.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 5,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/5.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/5.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/5.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 6,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/6.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/6.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/6.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 7,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/7.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/7.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/7.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 8,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/8.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/8.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/8.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 9,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/9.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/9.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/9.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 10,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/10.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/10.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/10.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 11,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/11.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/11.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/11.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 12,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/12.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/12.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/12.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 13,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/13.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/13.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/13.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 14,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/14.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/14.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/14.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 15,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_65536/source/15.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_65536/baseline/15.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_65536/ours/15.png",
+                  "highlight": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vqgan_65536",
+          "title": "VQGAN, 65536",
+          "meta": "Showing the first 15 examples with a slider.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/1.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/1.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 2,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/2.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/2.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 3,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/3.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/3.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 4,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/4.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/4.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 5,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/5.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/5.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/5.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 6,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/6.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/6.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/6.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 7,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/7.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/7.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/7.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 8,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/8.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/8.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/8.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 9,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/9.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/9.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/9.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 10,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/10.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/10.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/10.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 11,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/11.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/11.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/11.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 12,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/12.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/12.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/12.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 13,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/13.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/13.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/13.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 14,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/14.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/14.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/14.png",
+                  "highlight": true
+                }
+              ]
+            },
+            {
+              "sample_id": 15,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/vqgan_65536/source/15.png"
+                },
+                {
+                  "label": "VQGAN",
+                  "src": "assets/reconstruction/vqgan_65536/baseline/15.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/vqgan_65536/ours/15.png",
+                  "highlight": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generation",
+      "title": "Generation",
+      "description": "Within each baseline/ours folder pair, images are aligned by ascending file modification time.",
+      "comparisons": [
+        {
+          "id": "ibq_b",
+          "title": "IBQ-B",
+          "meta": "Paired in ascending file-modification time.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "cards": [
+                {
+                  "label": "IBQ-B",
+                  "src": "assets/generation/ibq_b/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_b/ours/1.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000009.png ↔ 000001.png"
+            },
+            {
+              "sample_id": 2,
+              "cards": [
+                {
+                  "label": "IBQ-B",
+                  "src": "assets/generation/ibq_b/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_b/ours/2.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000009-1.png ↔ 000003.png"
+            },
+            {
+              "sample_id": 3,
+              "cards": [
+                {
+                  "label": "IBQ-B",
+                  "src": "assets/generation/ibq_b/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_b/ours/3.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000004.png ↔ 000004.png"
+            },
+            {
+              "sample_id": 4,
+              "cards": [
+                {
+                  "label": "IBQ-B",
+                  "src": "assets/generation/ibq_b/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_b/ours/4.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000002.png ↔ 000007.png"
+            }
+          ]
+        },
+        {
+          "id": "ibq_l",
+          "title": "IBQ-L",
+          "meta": "Paired in ascending file-modification time.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "cards": [
+                {
+                  "label": "IBQ-L",
+                  "src": "assets/generation/ibq_l/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_l/ours/1.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000000.png ↔ 000007.png"
+            },
+            {
+              "sample_id": 2,
+              "cards": [
+                {
+                  "label": "IBQ-L",
+                  "src": "assets/generation/ibq_l/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_l/ours/2.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000006.png ↔ 000001.png"
+            },
+            {
+              "sample_id": 3,
+              "cards": [
+                {
+                  "label": "IBQ-L",
+                  "src": "assets/generation/ibq_l/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_l/ours/3.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000004.png ↔ 000001-1.png"
+            },
+            {
+              "sample_id": 4,
+              "cards": [
+                {
+                  "label": "IBQ-L",
+                  "src": "assets/generation/ibq_l/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_l/ours/4.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000003.png ↔ 000001-2.png"
+            }
+          ]
+        },
+        {
+          "id": "ibq_xl",
+          "title": "IBQ-XL",
+          "meta": "Paired in ascending file-modification time.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "cards": [
+                {
+                  "label": "IBQ-XL",
+                  "src": "assets/generation/ibq_xl/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_xl/ours/1.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000006.png ↔ 000003.png"
+            },
+            {
+              "sample_id": 2,
+              "cards": [
+                {
+                  "label": "IBQ-XL",
+                  "src": "assets/generation/ibq_xl/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_xl/ours/2.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000008.png ↔ 000001.png"
+            },
+            {
+              "sample_id": 3,
+              "cards": [
+                {
+                  "label": "IBQ-XL",
+                  "src": "assets/generation/ibq_xl/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_xl/ours/3.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000001.png ↔ 000003-1.png"
+            },
+            {
+              "sample_id": 4,
+              "cards": [
+                {
+                  "label": "IBQ-XL",
+                  "src": "assets/generation/ibq_xl/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/generation/ibq_xl/ours/4.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Paired by modification time · 000008-1.png ↔ 000008.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

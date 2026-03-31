@@ -2,15 +2,12 @@
 
 This folder is a self-contained static site for anonymous qualitative comparisons.
 
-## What is included
+## Included sections
 
-- `index.html`, `styles.css`, `app.js`: the webpage
-- `data/selections.json`: edit this file to choose which 5 image IDs to show for each comparison
-- `data/asset_manifest.json`: mapping from numbered display IDs back to the original local filenames
-- `data/ibq_filename_map.json`: explicit mapping for the renamed IBQ/source256 files
-- `assets/`: numbered copies of all images, generated as `1.png` to `50.png`
+- **Reconstruction**: first 15 examples for each model, shown in a slider
+- **Generation**: baseline/ours pairs from `generation/`, aligned by ascending file modification time
 
-## Rebuild the site assets
+## Rebuild the site
 
 From the repo root:
 
@@ -18,9 +15,9 @@ From the repo root:
 python3 scripts/build_anonymous_site.py
 ```
 
-## Preview locally
+This will also sync the generated files into `publish_anonymous_site/` if that folder exists.
 
-From the repo root:
+## Preview locally
 
 ```bash
 python3 -m http.server 8000 -d anonymous_site
@@ -32,14 +29,8 @@ Then open:
 http://127.0.0.1:8000
 ```
 
-## Change the displayed images
+## Data files
 
-Edit `anonymous_site/data/selections.json`.
-
-Example:
-
-```json
-"selected_ids": [3, 8, 17, 29, 41]
-```
-
-All IDs are **1-based**, so image `1` means the first file in the numbered assets.
+- `data/site_data.json`: webpage content
+- `data/asset_manifest.json`: mapping from displayed files back to local source files
+- `data/ibq_filename_map.json`: mapping for the numbered IBQ reconstruction images
