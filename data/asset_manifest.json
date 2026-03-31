@@ -1248,15 +1248,15 @@
           "pair_id": 1,
           "baseline_original_filename": "000009.png",
           "baseline_mtime": 1774932164.9516702,
-          "ours_original_filename": "000001.png",
-          "ours_mtime": 1774932261.475601
+          "ours_original_filename": "000003.png",
+          "ours_mtime": 1774932295.6354058
         },
         {
           "pair_id": 2,
           "baseline_original_filename": "000009-1.png",
           "baseline_mtime": 1774932181.6742268,
-          "ours_original_filename": "000003.png",
-          "ours_mtime": 1774932295.6354058
+          "ours_original_filename": "000001.png",
+          "ours_mtime": 1774932261.475601
         },
         {
           "pair_id": 3,

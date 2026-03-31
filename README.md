@@ -29,6 +29,27 @@ This means:
 
 The indices are **1-based**.
 
+## Control the generation pairing order
+
+Edit:
+
+```text
+site_config/generation_display_order.json
+```
+
+The files are first sorted by modification time, then reordered by the indices here.
+
+Example:
+
+```json
+"ibq_b": {
+  "baseline_order": [1, 2, 3, 4],
+  "ours_order": [2, 1, 3, 4]
+}
+```
+
+This swaps the first and second images from our side for `IBQ-B`.
+
 ## Rebuild the site
 
 From the repo root:
