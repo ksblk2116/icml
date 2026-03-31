@@ -1,0 +1,68 @@
+{
+  "site": {
+    "title": "Anonymous Reconstruction Comparison",
+    "subtitle": "Qualitative side-by-side reconstructions for rebuttal. Edit data/selections.json to choose which image IDs to display."
+  },
+  "comparisons": [
+    {
+      "id": "setting_a",
+      "title": "Setting A (128×128)",
+      "asset_dir": "assets/setting_a",
+      "source_label": "Original",
+      "baseline_label": "Baseline",
+      "ours_label": "Ours",
+      "selected_ids": [
+        7,
+        13,
+        18,
+        20,
+        24
+      ]
+    },
+    {
+      "id": "setting_b",
+      "title": "Setting B (256×256)",
+      "asset_dir": "assets/setting_b",
+      "source_label": "Original",
+      "baseline_label": "Baseline",
+      "ours_label": "Ours",
+      "selected_ids": [
+        7,
+        19,
+        42,
+        46,
+        49
+      ]
+    },
+    {
+      "id": "setting_c",
+      "title": "Setting C (128×128)",
+      "asset_dir": "assets/setting_c",
+      "source_label": "Original",
+      "baseline_label": "Baseline",
+      "ours_label": "Ours",
+      "selected_ids": [
+        1,
+        14,
+        35,
+        46,
+        50
+      ]
+    },
+    {
+      "id": "setting_d",
+      "title": "Setting D (128×128)",
+      "asset_dir": "assets/setting_d",
+      "source_label": "Original",
+      "baseline_label": "Baseline",
+      "ours_label": "Ours",
+      "selected_ids": [
+        1,
+        11,
+        27,
+        30,
+        46
+      ]
+    }
+  ]
+}

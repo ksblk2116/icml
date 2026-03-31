@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anonymous Reconstruction Comparison</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-inner">
+        <p class="eyebrow">Anonymous project page</p>
+        <h1 id="site-title">Anonymous Reconstruction Comparison</h1>
+        <p id="site-subtitle" class="subtitle"></p>
+      </div>
+    </header>
+
+    <main class="page-body">
+      <section class="note">
+        <p>
+          Edit <code>data/selections.json</code> to change titles, labels, or the
+          5 image IDs shown in each comparison.
+        </p>
+      </section>
+      <div id="app"></div>
+    </main>
+
+    <template id="comparison-template">
+      <section class="comparison-section">
+        <div class="section-heading">
+          <h2 class="comparison-title"></h2>
+          <p class="comparison-meta"></p>
+        </div>
+        <div class="comparison-grid"></div>
+      </section>
+    </template>
+
+    <template id="row-template">
+      <article class="comparison-row">
+        <div class="image-card">
+          <div class="image-label"></div>
+          <img loading="lazy" alt="" />
+        </div>
+        <div class="image-card">
+          <div class="image-label"></div>
+          <img loading="lazy" alt="" />
+        </div>
+        <div class="image-card ours-card">
+          <div class="image-label"></div>
+          <img loading="lazy" alt="" />
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
