@@ -25,7 +25,7 @@ body {
 }
 
 .page-shell {
-  max-width: 1240px;
+  max-width: 1600px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -118,85 +118,57 @@ h1 {
   line-height: 1.6;
 }
 
-.slider-controls {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  white-space: nowrap;
-}
-
-.nav-button {
-  border: 1px solid var(--border);
-  background: white;
-  color: var(--text);
-  border-radius: 999px;
-  width: 40px;
-  height: 40px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.nav-button:disabled {
-  opacity: 0.4;
-  cursor: not-allowed;
-}
-
-.slide-indicator {
-  min-width: 52px;
-  text-align: center;
-  color: var(--muted);
-  font-weight: 600;
-}
-
-.slider-viewport {
-  overflow: hidden;
-  border-radius: 16px;
-}
-
-.slider-track {
-  display: flex;
-  transition: transform 0.3s ease;
-  will-change: transform;
-}
-
 .gallery-viewport {
   overflow: visible;
 }
 
 .gallery-track {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
-  justify-items: center;
-  transform: none !important;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.slide {
-  min-width: 100%;
-  padding: 4px 2px;
-}
-
-.gallery-slide {
-  width: min(100%, 1120px);
-  min-width: 0;
-  padding: 14px 16px;
+.method-row {
   border: 1px solid var(--border);
-  border-radius: 16px;
-  background: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  background: var(--soft);
 }
 
-.gallery-slide .slide-grid {
-  max-width: 1060px;
-  margin: 0 auto;
+.method-row-highlight {
+  background: var(--accent-soft);
+  border-color: #bfd1fd;
 }
 
-.gallery-slide .slide-caption {
-  text-align: center;
+.method-row-label {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 12px;
+  padding-left: 4px;
 }
 
-.slide-grid {
+.method-row-highlight .method-row-label {
+  color: var(--accent);
+}
+
+.method-row-images {
   display: grid;
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+}
+
+.method-image-card {
+  margin: 0;
+}
+
+.method-image-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
 .image-card {
@@ -241,7 +213,7 @@ h1 {
     align-items: flex-start;
   }
 
-  .slide-grid {
-    grid-template-columns: 1fr !important;
+  .method-row-images {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }

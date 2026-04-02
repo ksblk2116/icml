@@ -21,51 +21,70 @@ function buildImageCard(cardData, comparisonTitle, sampleId) {
   return card;
 }
 
-function updateSliderState(comparisonElement, currentIndex, totalSlides) {
-  const track = comparisonElement.querySelector(".slider-track");
-  const indicator = comparisonElement.querySelector(".slide-indicator");
-  const prevButton = comparisonElement.querySelector(".prev-button");
-  const nextButton = comparisonElement.querySelector(".next-button");
-
-  track.style.transform = `translateX(-${currentIndex * 100}%)`;
-  indicator.textContent = `${currentIndex + 1} / ${totalSlides}`;
-  prevButton.disabled = currentIndex === 0;
-  nextButton.disabled = currentIndex === totalSlides - 1;
-}
-
 function renderComparison(container, comparison) {
   const comparisonTemplate = document.getElementById("comparison-template");
-  const slideTemplate = document.getElementById("slide-template");
   const comparisonElement =
     comparisonTemplate.content.firstElementChild.cloneNode(true);
 
   comparisonElement.querySelector(".comparison-title").textContent = comparison.title;
   comparisonElement.querySelector(".comparison-meta").textContent = comparison.meta || "";
 
-  const track = comparisonElement.querySelector(".slider-track");
-  const slides = comparison.slides || [];
-  comparisonElement.classList.add("gallery-comparison");
   const controls = comparisonElement.querySelector(".slider-controls");
-  const viewport = comparisonElement.querySelector(".slider-viewport");
   controls.remove();
+
+  const viewport = comparisonElement.querySelector(".slider-viewport");
   viewport.classList.add("gallery-viewport");
+
+  const track = comparisonElement.querySelector(".slider-track");
   track.classList.add("gallery-track");
 
+  const slides = comparison.slides || [];
   const galleryLimit = comparison.gallery_limit || slides.length;
-  slides.slice(0, galleryLimit).forEach((slideData) => {
-    const slideElement = slideTemplate.content.firstElementChild.cloneNode(true);
-    slideElement.classList.add("gallery-slide");
-    const grid = slideElement.querySelector(".slide-grid");
-    grid.style.gridTemplateColumns = `repeat(${slideData.cards.length}, minmax(0, 1fr))`;
+  const visibleSlides = slides.slice(0, galleryLimit);
 
-    slideData.cards.forEach((cardData) => {
-      grid.appendChild(buildImageCard(cardData, comparison.title, slideData.sample_id));
+  if (visibleSlides.length === 0) {
+    container.appendChild(comparisonElement);
+    return;
+  }
+
+  const labels = visibleSlides[0].cards.map((c) => c.label);
+  const highlightFlags = visibleSlides[0].cards.map((c) => !!c.highlight);
+
+  labels.forEach((label, labelIndex) => {
+    const row = document.createElement("div");
+    row.className = "method-row";
+    if (highlightFlags[labelIndex]) {
+      row.classList.add("method-row-highlight");
+    }
+
+    const rowLabel = document.createElement("div");
+    rowLabel.className = "method-row-label";
+    rowLabel.textContent = label;
+    row.appendChild(rowLabel);
+
+    const rowImages = document.createElement("div");
+    rowImages.className = "method-row-images";
+
+    visibleSlides.forEach((slideData) => {
+      const cardData = slideData.cards[labelIndex];
+      if (!cardData) return;
+
+      const fig = document.createElement("figure");
+      fig.className = "method-image-card";
+
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.src = cardData.src;
+      img.alt = `${comparison.title} · ${cardData.label} · sample ${slideData.sample_id}`;
+      fig.appendChild(img);
+
+      rowImages.appendChild(fig);
     });
 
-    const caption = slideElement.querySelector(".slide-caption");
-    caption.textContent = slideData.caption || `Sample ${slideData.sample_id}`;
-    track.appendChild(slideElement);
+    row.appendChild(rowImages);
+    track.appendChild(row);
   });
+
   container.appendChild(comparisonElement);
 }
 
