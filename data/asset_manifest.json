@@ -1,311 +1,311 @@
 {
   "reconstruction": [
     {
-      "id": "simvq_262144",
-      "title": "SimVQ, 262144",
-      "source_dir": "source",
-      "baseline_dir": "Simvq-262144",
-      "ours_dir": "LSimvq-262144",
+      "id": "ibq_262144",
+      "title": "IBQ, 262144",
+      "source_dir": "ibq262144",
+      "baseline_dir": "ibq262144",
+      "ours_dir": "ibq262144",
       "rows": [
         {
           "display_id": 1,
-          "source_original_filename": "0.png",
-          "baseline_original_filename": "0.png",
-          "ours_original_filename": "0.png"
+          "source_original_filename": "001_original.png",
+          "baseline_original_filename": "001_ibq.png",
+          "ours_original_filename": "001_discrete_atoken.png"
         },
         {
           "display_id": 2,
-          "source_original_filename": "1.png",
-          "baseline_original_filename": "1.png",
-          "ours_original_filename": "1.png"
+          "source_original_filename": "002_original.png",
+          "baseline_original_filename": "002_ibq.png",
+          "ours_original_filename": "002_discrete_atoken.png"
         },
         {
           "display_id": 3,
-          "source_original_filename": "2.png",
-          "baseline_original_filename": "2.png",
-          "ours_original_filename": "2.png"
+          "source_original_filename": "003_original.png",
+          "baseline_original_filename": "003_ibq.png",
+          "ours_original_filename": "003_discrete_atoken.png"
         },
         {
           "display_id": 4,
-          "source_original_filename": "3.png",
-          "baseline_original_filename": "3.png",
-          "ours_original_filename": "3.png"
+          "source_original_filename": "004_original.png",
+          "baseline_original_filename": "004_ibq.png",
+          "ours_original_filename": "004_discrete_atoken.png"
         },
         {
           "display_id": 5,
-          "source_original_filename": "4.png",
-          "baseline_original_filename": "4.png",
-          "ours_original_filename": "4.png"
+          "source_original_filename": "005_original.png",
+          "baseline_original_filename": "005_ibq.png",
+          "ours_original_filename": "005_discrete_atoken.png"
         },
         {
           "display_id": 6,
-          "source_original_filename": "5.png",
-          "baseline_original_filename": "5.png",
-          "ours_original_filename": "5.png"
+          "source_original_filename": "006_original.png",
+          "baseline_original_filename": "006_ibq.png",
+          "ours_original_filename": "006_discrete_atoken.png"
         },
         {
           "display_id": 7,
-          "source_original_filename": "6.png",
-          "baseline_original_filename": "6.png",
-          "ours_original_filename": "6.png"
+          "source_original_filename": "007_original.png",
+          "baseline_original_filename": "007_ibq.png",
+          "ours_original_filename": "007_discrete_atoken.png"
         },
         {
           "display_id": 8,
-          "source_original_filename": "7.png",
-          "baseline_original_filename": "7.png",
-          "ours_original_filename": "7.png"
+          "source_original_filename": "008_original.png",
+          "baseline_original_filename": "008_ibq.png",
+          "ours_original_filename": "008_discrete_atoken.png"
         },
         {
           "display_id": 9,
-          "source_original_filename": "8.png",
-          "baseline_original_filename": "8.png",
-          "ours_original_filename": "8.png"
+          "source_original_filename": "009_original.png",
+          "baseline_original_filename": "009_ibq.png",
+          "ours_original_filename": "009_discrete_atoken.png"
         },
         {
           "display_id": 10,
-          "source_original_filename": "9.png",
-          "baseline_original_filename": "9.png",
-          "ours_original_filename": "9.png"
+          "source_original_filename": "010_original.png",
+          "baseline_original_filename": "010_ibq.png",
+          "ours_original_filename": "010_discrete_atoken.png"
         },
         {
           "display_id": 11,
-          "source_original_filename": "10.png",
-          "baseline_original_filename": "10.png",
-          "ours_original_filename": "10.png"
+          "source_original_filename": "011_original.png",
+          "baseline_original_filename": "011_ibq.png",
+          "ours_original_filename": "011_discrete_atoken.png"
         },
         {
           "display_id": 12,
-          "source_original_filename": "11.png",
-          "baseline_original_filename": "11.png",
-          "ours_original_filename": "11.png"
+          "source_original_filename": "012_original.png",
+          "baseline_original_filename": "012_ibq.png",
+          "ours_original_filename": "012_discrete_atoken.png"
         },
         {
           "display_id": 13,
-          "source_original_filename": "12.png",
-          "baseline_original_filename": "12.png",
-          "ours_original_filename": "12.png"
+          "source_original_filename": "013_original.png",
+          "baseline_original_filename": "013_ibq.png",
+          "ours_original_filename": "013_discrete_atoken.png"
         },
         {
           "display_id": 14,
-          "source_original_filename": "13.png",
-          "baseline_original_filename": "13.png",
-          "ours_original_filename": "13.png"
+          "source_original_filename": "014_original.png",
+          "baseline_original_filename": "014_ibq.png",
+          "ours_original_filename": "014_discrete_atoken.png"
         },
         {
           "display_id": 15,
-          "source_original_filename": "14.png",
-          "baseline_original_filename": "14.png",
-          "ours_original_filename": "14.png"
+          "source_original_filename": "015_original.png",
+          "baseline_original_filename": "015_ibq.png",
+          "ours_original_filename": "015_discrete_atoken.png"
         },
         {
           "display_id": 16,
-          "source_original_filename": "15.png",
-          "baseline_original_filename": "15.png",
-          "ours_original_filename": "15.png"
+          "source_original_filename": "016_original.png",
+          "baseline_original_filename": "016_ibq.png",
+          "ours_original_filename": "016_discrete_atoken.png"
         },
         {
           "display_id": 17,
-          "source_original_filename": "16.png",
-          "baseline_original_filename": "16.png",
-          "ours_original_filename": "16.png"
+          "source_original_filename": "017_original.png",
+          "baseline_original_filename": "017_ibq.png",
+          "ours_original_filename": "017_discrete_atoken.png"
         },
         {
           "display_id": 18,
-          "source_original_filename": "17.png",
-          "baseline_original_filename": "17.png",
-          "ours_original_filename": "17.png"
+          "source_original_filename": "018_original.png",
+          "baseline_original_filename": "018_ibq.png",
+          "ours_original_filename": "018_discrete_atoken.png"
         },
         {
           "display_id": 19,
-          "source_original_filename": "18.png",
-          "baseline_original_filename": "18.png",
-          "ours_original_filename": "18.png"
+          "source_original_filename": "019_original.png",
+          "baseline_original_filename": "019_ibq.png",
+          "ours_original_filename": "019_discrete_atoken.png"
         },
         {
           "display_id": 20,
-          "source_original_filename": "19.png",
-          "baseline_original_filename": "19.png",
-          "ours_original_filename": "19.png"
+          "source_original_filename": "020_original.png",
+          "baseline_original_filename": "020_ibq.png",
+          "ours_original_filename": "020_discrete_atoken.png"
         },
         {
           "display_id": 21,
-          "source_original_filename": "20.png",
-          "baseline_original_filename": "20.png",
-          "ours_original_filename": "20.png"
+          "source_original_filename": "021_original.png",
+          "baseline_original_filename": "021_ibq.png",
+          "ours_original_filename": "021_discrete_atoken.png"
         },
         {
           "display_id": 22,
-          "source_original_filename": "21.png",
-          "baseline_original_filename": "21.png",
-          "ours_original_filename": "21.png"
+          "source_original_filename": "022_original.png",
+          "baseline_original_filename": "022_ibq.png",
+          "ours_original_filename": "022_discrete_atoken.png"
         },
         {
           "display_id": 23,
-          "source_original_filename": "22.png",
-          "baseline_original_filename": "22.png",
-          "ours_original_filename": "22.png"
+          "source_original_filename": "023_original.png",
+          "baseline_original_filename": "023_ibq.png",
+          "ours_original_filename": "023_discrete_atoken.png"
         },
         {
           "display_id": 24,
-          "source_original_filename": "23.png",
-          "baseline_original_filename": "23.png",
-          "ours_original_filename": "23.png"
+          "source_original_filename": "024_original.png",
+          "baseline_original_filename": "024_ibq.png",
+          "ours_original_filename": "024_discrete_atoken.png"
         },
         {
           "display_id": 25,
-          "source_original_filename": "24.png",
-          "baseline_original_filename": "24.png",
-          "ours_original_filename": "24.png"
+          "source_original_filename": "025_original.png",
+          "baseline_original_filename": "025_ibq.png",
+          "ours_original_filename": "025_discrete_atoken.png"
         },
         {
           "display_id": 26,
-          "source_original_filename": "25.png",
-          "baseline_original_filename": "25.png",
-          "ours_original_filename": "25.png"
+          "source_original_filename": "026_original.png",
+          "baseline_original_filename": "026_ibq.png",
+          "ours_original_filename": "026_discrete_atoken.png"
         },
         {
           "display_id": 27,
-          "source_original_filename": "26.png",
-          "baseline_original_filename": "26.png",
-          "ours_original_filename": "26.png"
+          "source_original_filename": "027_original.png",
+          "baseline_original_filename": "027_ibq.png",
+          "ours_original_filename": "027_discrete_atoken.png"
         },
         {
           "display_id": 28,
-          "source_original_filename": "27.png",
-          "baseline_original_filename": "27.png",
-          "ours_original_filename": "27.png"
+          "source_original_filename": "028_original.png",
+          "baseline_original_filename": "028_ibq.png",
+          "ours_original_filename": "028_discrete_atoken.png"
         },
         {
           "display_id": 29,
-          "source_original_filename": "28.png",
-          "baseline_original_filename": "28.png",
-          "ours_original_filename": "28.png"
+          "source_original_filename": "029_original.png",
+          "baseline_original_filename": "029_ibq.png",
+          "ours_original_filename": "029_discrete_atoken.png"
         },
         {
           "display_id": 30,
-          "source_original_filename": "29.png",
-          "baseline_original_filename": "29.png",
-          "ours_original_filename": "29.png"
+          "source_original_filename": "030_original.png",
+          "baseline_original_filename": "030_ibq.png",
+          "ours_original_filename": "030_discrete_atoken.png"
         },
         {
           "display_id": 31,
-          "source_original_filename": "30.png",
-          "baseline_original_filename": "30.png",
-          "ours_original_filename": "30.png"
+          "source_original_filename": "031_original.png",
+          "baseline_original_filename": "031_ibq.png",
+          "ours_original_filename": "031_discrete_atoken.png"
         },
         {
           "display_id": 32,
-          "source_original_filename": "31.png",
-          "baseline_original_filename": "31.png",
-          "ours_original_filename": "31.png"
+          "source_original_filename": "032_original.png",
+          "baseline_original_filename": "032_ibq.png",
+          "ours_original_filename": "032_discrete_atoken.png"
         },
         {
           "display_id": 33,
-          "source_original_filename": "32.png",
-          "baseline_original_filename": "32.png",
-          "ours_original_filename": "32.png"
+          "source_original_filename": "033_original.png",
+          "baseline_original_filename": "033_ibq.png",
+          "ours_original_filename": "033_discrete_atoken.png"
         },
         {
           "display_id": 34,
-          "source_original_filename": "33.png",
-          "baseline_original_filename": "33.png",
-          "ours_original_filename": "33.png"
+          "source_original_filename": "034_original.png",
+          "baseline_original_filename": "034_ibq.png",
+          "ours_original_filename": "034_discrete_atoken.png"
         },
         {
           "display_id": 35,
-          "source_original_filename": "34.png",
-          "baseline_original_filename": "34.png",
-          "ours_original_filename": "34.png"
+          "source_original_filename": "035_original.png",
+          "baseline_original_filename": "035_ibq.png",
+          "ours_original_filename": "035_discrete_atoken.png"
         },
         {
           "display_id": 36,
-          "source_original_filename": "35.png",
-          "baseline_original_filename": "35.png",
-          "ours_original_filename": "35.png"
+          "source_original_filename": "036_original.png",
+          "baseline_original_filename": "036_ibq.png",
+          "ours_original_filename": "036_discrete_atoken.png"
         },
         {
           "display_id": 37,
-          "source_original_filename": "36.png",
-          "baseline_original_filename": "36.png",
-          "ours_original_filename": "36.png"
+          "source_original_filename": "037_original.png",
+          "baseline_original_filename": "037_ibq.png",
+          "ours_original_filename": "037_discrete_atoken.png"
         },
         {
           "display_id": 38,
-          "source_original_filename": "37.png",
-          "baseline_original_filename": "37.png",
-          "ours_original_filename": "37.png"
+          "source_original_filename": "038_original.png",
+          "baseline_original_filename": "038_ibq.png",
+          "ours_original_filename": "038_discrete_atoken.png"
         },
         {
           "display_id": 39,
-          "source_original_filename": "38.png",
-          "baseline_original_filename": "38.png",
-          "ours_original_filename": "38.png"
+          "source_original_filename": "039_original.png",
+          "baseline_original_filename": "039_ibq.png",
+          "ours_original_filename": "039_discrete_atoken.png"
         },
         {
           "display_id": 40,
-          "source_original_filename": "39.png",
-          "baseline_original_filename": "39.png",
-          "ours_original_filename": "39.png"
+          "source_original_filename": "040_original.png",
+          "baseline_original_filename": "040_ibq.png",
+          "ours_original_filename": "040_discrete_atoken.png"
         },
         {
           "display_id": 41,
-          "source_original_filename": "40.png",
-          "baseline_original_filename": "40.png",
-          "ours_original_filename": "40.png"
+          "source_original_filename": "041_original.png",
+          "baseline_original_filename": "041_ibq.png",
+          "ours_original_filename": "041_discrete_atoken.png"
         },
         {
           "display_id": 42,
-          "source_original_filename": "41.png",
-          "baseline_original_filename": "41.png",
-          "ours_original_filename": "41.png"
+          "source_original_filename": "042_original.png",
+          "baseline_original_filename": "042_ibq.png",
+          "ours_original_filename": "042_discrete_atoken.png"
         },
         {
           "display_id": 43,
-          "source_original_filename": "42.png",
-          "baseline_original_filename": "42.png",
-          "ours_original_filename": "42.png"
+          "source_original_filename": "043_original.png",
+          "baseline_original_filename": "043_ibq.png",
+          "ours_original_filename": "043_discrete_atoken.png"
         },
         {
           "display_id": 44,
-          "source_original_filename": "43.png",
-          "baseline_original_filename": "43.png",
-          "ours_original_filename": "43.png"
+          "source_original_filename": "044_original.png",
+          "baseline_original_filename": "044_ibq.png",
+          "ours_original_filename": "044_discrete_atoken.png"
         },
         {
           "display_id": 45,
-          "source_original_filename": "44.png",
-          "baseline_original_filename": "44.png",
-          "ours_original_filename": "44.png"
+          "source_original_filename": "045_original.png",
+          "baseline_original_filename": "045_ibq.png",
+          "ours_original_filename": "045_discrete_atoken.png"
         },
         {
           "display_id": 46,
-          "source_original_filename": "45.png",
-          "baseline_original_filename": "45.png",
-          "ours_original_filename": "45.png"
+          "source_original_filename": "046_original.png",
+          "baseline_original_filename": "046_ibq.png",
+          "ours_original_filename": "046_discrete_atoken.png"
         },
         {
           "display_id": 47,
-          "source_original_filename": "46.png",
-          "baseline_original_filename": "46.png",
-          "ours_original_filename": "46.png"
+          "source_original_filename": "047_original.png",
+          "baseline_original_filename": "047_ibq.png",
+          "ours_original_filename": "047_discrete_atoken.png"
         },
         {
           "display_id": 48,
-          "source_original_filename": "47.png",
-          "baseline_original_filename": "47.png",
-          "ours_original_filename": "47.png"
+          "source_original_filename": "048_original.png",
+          "baseline_original_filename": "048_ibq.png",
+          "ours_original_filename": "048_discrete_atoken.png"
         },
         {
           "display_id": 49,
-          "source_original_filename": "48.png",
-          "baseline_original_filename": "48.png",
-          "ours_original_filename": "48.png"
+          "source_original_filename": "049_original.png",
+          "baseline_original_filename": "049_ibq.png",
+          "ours_original_filename": "049_discrete_atoken.png"
         },
         {
           "display_id": 50,
-          "source_original_filename": "49.png",
-          "baseline_original_filename": "49.png",
-          "ours_original_filename": "49.png"
+          "source_original_filename": "050_original.png",
+          "baseline_original_filename": "050_ibq.png",
+          "ours_original_filename": "050_discrete_atoken.png"
         }
       ]
     },
@@ -619,11 +619,11 @@
       ]
     },
     {
-      "id": "simvq_65536",
-      "title": "SimVQ, 65536",
+      "id": "simvq_262144",
+      "title": "SimVQ, 262144",
       "source_dir": "source",
-      "baseline_dir": "Simvq65536",
-      "ours_dir": "LSimvq65536",
+      "baseline_dir": "Simvq-262144",
+      "ours_dir": "LSimvq-262144",
       "rows": [
         {
           "display_id": 1,
@@ -928,11 +928,11 @@
       ]
     },
     {
-      "id": "vqgan_65536",
-      "title": "VQGAN, 65536",
+      "id": "simvq_65536",
+      "title": "SimVQ, 65536",
       "source_dir": "source",
-      "baseline_dir": "Vqgan65536",
-      "ours_dir": "LVqgan65536",
+      "baseline_dir": "Simvq65536",
+      "ours_dir": "LSimvq65536",
       "rows": [
         {
           "display_id": 1,

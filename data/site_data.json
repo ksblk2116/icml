@@ -10,309 +10,1009 @@
       "description": "Edit site_config/reconstruction_display_order.json to control which image appears in each display slot.",
       "comparisons": [
         {
-          "id": "simvq_262144",
-          "title": "SimVQ, 262144",
+          "id": "ibq_262144",
+          "title": "IBQ, 262144",
           "meta": "Display order is controlled by site_config/reconstruction_display_order.json.",
           "slides": [
             {
               "sample_id": 1,
-              "image_id": 4,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/4.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/4.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/4.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 1 · image 4"
-            },
-            {
-              "sample_id": 2,
-              "image_id": 7,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/7.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/7.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/7.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 2 · image 7"
-            },
-            {
-              "sample_id": 3,
-              "image_id": 13,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/13.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/13.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/13.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 3 · image 13"
-            },
-            {
-              "sample_id": 4,
-              "image_id": 9,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/9.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/9.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/9.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 4 · image 9"
-            },
-            {
-              "sample_id": 5,
-              "image_id": 10,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/10.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/10.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/10.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 5 · image 10"
-            },
-            {
-              "sample_id": 6,
-              "image_id": 11,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/11.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/11.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/11.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 6 · image 11"
-            },
-            {
-              "sample_id": 7,
-              "image_id": 6,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/6.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/6.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/6.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 7 · image 6"
-            },
-            {
-              "sample_id": 8,
-              "image_id": 14,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/14.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/14.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/14.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 8 · image 14"
-            },
-            {
-              "sample_id": 9,
-              "image_id": 5,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/5.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/5.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/5.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 9 · image 5"
-            },
-            {
-              "sample_id": 10,
               "image_id": 1,
               "cards": [
                 {
                   "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/1.png"
+                  "src": "assets/reconstruction/ibq_262144/source/1.png"
                 },
                 {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/1.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/1.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 10 · image 1"
-            },
-            {
-              "sample_id": 11,
-              "image_id": 15,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/15.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/15.png"
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/1.png"
                 },
                 {
                   "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/15.png",
+                  "src": "assets/reconstruction/ibq_262144/ours/1.png",
                   "highlight": true
                 }
               ],
-              "caption": "Display slot 11 · image 15"
+              "caption": "Display slot 1 · image 1"
             },
             {
-              "sample_id": 12,
-              "image_id": 8,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/8.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/8.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/8.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 12 · image 8"
-            },
-            {
-              "sample_id": 13,
+              "sample_id": 2,
               "image_id": 2,
               "cards": [
                 {
                   "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/2.png"
+                  "src": "assets/reconstruction/ibq_262144/source/2.png"
                 },
                 {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/2.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/2.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 13 · image 2"
-            },
-            {
-              "sample_id": 14,
-              "image_id": 12,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/12.png"
-                },
-                {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/12.png"
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/2.png"
                 },
                 {
                   "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/12.png",
+                  "src": "assets/reconstruction/ibq_262144/ours/2.png",
                   "highlight": true
                 }
               ],
-              "caption": "Display slot 14 · image 12"
+              "caption": "Display slot 2 · image 2"
             },
             {
-              "sample_id": 15,
+              "sample_id": 3,
               "image_id": 3,
               "cards": [
                 {
                   "label": "GT",
-                  "src": "assets/reconstruction/simvq_262144/source/3.png"
+                  "src": "assets/reconstruction/ibq_262144/source/3.png"
                 },
                 {
-                  "label": "SimVQ",
-                  "src": "assets/reconstruction/simvq_262144/baseline/3.png"
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/3.png"
                 },
                 {
                   "label": "Ours",
-                  "src": "assets/reconstruction/simvq_262144/ours/3.png",
+                  "src": "assets/reconstruction/ibq_262144/ours/3.png",
                   "highlight": true
                 }
               ],
-              "caption": "Display slot 15 · image 3"
+              "caption": "Display slot 3 · image 3"
+            },
+            {
+              "sample_id": 4,
+              "image_id": 4,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/4.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/4.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 4 · image 4"
+            },
+            {
+              "sample_id": 5,
+              "image_id": 5,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/5.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/5.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/5.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 5 · image 5"
+            },
+            {
+              "sample_id": 6,
+              "image_id": 6,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/6.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/6.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/6.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 6 · image 6"
+            },
+            {
+              "sample_id": 7,
+              "image_id": 7,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/7.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/7.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/7.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 7 · image 7"
+            },
+            {
+              "sample_id": 8,
+              "image_id": 8,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/8.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/8.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/8.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 8 · image 8"
+            },
+            {
+              "sample_id": 9,
+              "image_id": 9,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/9.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/9.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/9.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 9 · image 9"
+            },
+            {
+              "sample_id": 10,
+              "image_id": 10,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/10.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/10.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/10.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 10 · image 10"
+            },
+            {
+              "sample_id": 11,
+              "image_id": 11,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/11.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/11.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/11.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 11 · image 11"
+            },
+            {
+              "sample_id": 12,
+              "image_id": 12,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/12.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/12.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/12.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 12 · image 12"
+            },
+            {
+              "sample_id": 13,
+              "image_id": 13,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/13.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/13.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/13.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 13 · image 13"
+            },
+            {
+              "sample_id": 14,
+              "image_id": 14,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/14.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/14.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/14.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 14 · image 14"
+            },
+            {
+              "sample_id": 15,
+              "image_id": 15,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/15.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/15.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/15.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 15 · image 15"
+            },
+            {
+              "sample_id": 16,
+              "image_id": 16,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/16.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/16.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/16.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 16 · image 16"
+            },
+            {
+              "sample_id": 17,
+              "image_id": 17,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/17.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/17.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/17.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 17 · image 17"
+            },
+            {
+              "sample_id": 18,
+              "image_id": 18,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/18.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/18.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/18.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 18 · image 18"
+            },
+            {
+              "sample_id": 19,
+              "image_id": 19,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/19.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/19.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/19.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 19 · image 19"
+            },
+            {
+              "sample_id": 20,
+              "image_id": 20,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/20.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/20.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/20.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 20 · image 20"
+            },
+            {
+              "sample_id": 21,
+              "image_id": 21,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/21.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/21.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/21.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 21 · image 21"
+            },
+            {
+              "sample_id": 22,
+              "image_id": 22,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/22.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/22.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/22.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 22 · image 22"
+            },
+            {
+              "sample_id": 23,
+              "image_id": 23,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/23.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/23.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/23.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 23 · image 23"
+            },
+            {
+              "sample_id": 24,
+              "image_id": 24,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/24.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/24.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/24.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 24 · image 24"
+            },
+            {
+              "sample_id": 25,
+              "image_id": 25,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/25.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/25.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/25.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 25 · image 25"
+            },
+            {
+              "sample_id": 26,
+              "image_id": 26,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/26.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/26.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/26.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 26 · image 26"
+            },
+            {
+              "sample_id": 27,
+              "image_id": 27,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/27.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/27.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/27.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 27 · image 27"
+            },
+            {
+              "sample_id": 28,
+              "image_id": 28,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/28.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/28.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/28.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 28 · image 28"
+            },
+            {
+              "sample_id": 29,
+              "image_id": 29,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/29.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/29.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/29.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 29 · image 29"
+            },
+            {
+              "sample_id": 30,
+              "image_id": 30,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/30.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/30.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/30.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 30 · image 30"
+            },
+            {
+              "sample_id": 31,
+              "image_id": 31,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/31.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/31.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/31.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 31 · image 31"
+            },
+            {
+              "sample_id": 32,
+              "image_id": 32,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/32.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/32.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/32.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 32 · image 32"
+            },
+            {
+              "sample_id": 33,
+              "image_id": 33,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/33.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/33.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/33.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 33 · image 33"
+            },
+            {
+              "sample_id": 34,
+              "image_id": 34,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/34.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/34.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/34.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 34 · image 34"
+            },
+            {
+              "sample_id": 35,
+              "image_id": 35,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/35.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/35.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/35.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 35 · image 35"
+            },
+            {
+              "sample_id": 36,
+              "image_id": 36,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/36.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/36.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/36.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 36 · image 36"
+            },
+            {
+              "sample_id": 37,
+              "image_id": 37,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/37.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/37.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/37.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 37 · image 37"
+            },
+            {
+              "sample_id": 38,
+              "image_id": 38,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/38.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/38.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/38.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 38 · image 38"
+            },
+            {
+              "sample_id": 39,
+              "image_id": 39,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/39.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/39.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/39.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 39 · image 39"
+            },
+            {
+              "sample_id": 40,
+              "image_id": 40,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/40.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/40.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/40.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 40 · image 40"
+            },
+            {
+              "sample_id": 41,
+              "image_id": 41,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/41.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/41.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/41.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 41 · image 41"
+            },
+            {
+              "sample_id": 42,
+              "image_id": 42,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/42.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/42.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/42.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 42 · image 42"
+            },
+            {
+              "sample_id": 43,
+              "image_id": 43,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/43.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/43.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/43.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 43 · image 43"
+            },
+            {
+              "sample_id": 44,
+              "image_id": 44,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/44.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/44.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/44.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 44 · image 44"
+            },
+            {
+              "sample_id": 45,
+              "image_id": 45,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/45.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/45.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/45.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 45 · image 45"
+            },
+            {
+              "sample_id": 46,
+              "image_id": 46,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/46.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/46.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/46.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 46 · image 46"
+            },
+            {
+              "sample_id": 47,
+              "image_id": 47,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/47.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/47.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/47.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 47 · image 47"
+            },
+            {
+              "sample_id": 48,
+              "image_id": 48,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/48.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/48.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/48.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 48 · image 48"
+            },
+            {
+              "sample_id": 49,
+              "image_id": 49,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/49.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/49.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/49.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 49 · image 49"
+            },
+            {
+              "sample_id": 50,
+              "image_id": 50,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/ibq_262144/source/50.png"
+                },
+                {
+                  "label": "IBQ",
+                  "src": "assets/reconstruction/ibq_262144/baseline/50.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/ibq_262144/ours/50.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 50 · image 50"
             }
           ]
         },
@@ -624,6 +1324,313 @@
           ]
         },
         {
+          "id": "simvq_262144",
+          "title": "SimVQ, 262144",
+          "meta": "Display order is controlled by site_config/reconstruction_display_order.json.",
+          "slides": [
+            {
+              "sample_id": 1,
+              "image_id": 4,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/4.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/4.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/4.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 1 · image 4"
+            },
+            {
+              "sample_id": 2,
+              "image_id": 7,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/7.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/7.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/7.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 2 · image 7"
+            },
+            {
+              "sample_id": 3,
+              "image_id": 13,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/13.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/13.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/13.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 3 · image 13"
+            },
+            {
+              "sample_id": 4,
+              "image_id": 9,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/9.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/9.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/9.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 4 · image 9"
+            },
+            {
+              "sample_id": 5,
+              "image_id": 10,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/10.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/10.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/10.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 5 · image 10"
+            },
+            {
+              "sample_id": 6,
+              "image_id": 11,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/11.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/11.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/11.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 6 · image 11"
+            },
+            {
+              "sample_id": 7,
+              "image_id": 6,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/6.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/6.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/6.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 7 · image 6"
+            },
+            {
+              "sample_id": 8,
+              "image_id": 14,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/14.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/14.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/14.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 8 · image 14"
+            },
+            {
+              "sample_id": 9,
+              "image_id": 5,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/5.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/5.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/5.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 9 · image 5"
+            },
+            {
+              "sample_id": 10,
+              "image_id": 1,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/1.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/1.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/1.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 10 · image 1"
+            },
+            {
+              "sample_id": 11,
+              "image_id": 15,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/15.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/15.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/15.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 11 · image 15"
+            },
+            {
+              "sample_id": 12,
+              "image_id": 8,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/8.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/8.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/8.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 12 · image 8"
+            },
+            {
+              "sample_id": 13,
+              "image_id": 2,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/2.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/2.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/2.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 13 · image 2"
+            },
+            {
+              "sample_id": 14,
+              "image_id": 12,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/12.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/12.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/12.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 14 · image 12"
+            },
+            {
+              "sample_id": 15,
+              "image_id": 3,
+              "cards": [
+                {
+                  "label": "GT",
+                  "src": "assets/reconstruction/simvq_262144/source/3.png"
+                },
+                {
+                  "label": "SimVQ",
+                  "src": "assets/reconstruction/simvq_262144/baseline/3.png"
+                },
+                {
+                  "label": "Ours",
+                  "src": "assets/reconstruction/simvq_262144/ours/3.png",
+                  "highlight": true
+                }
+              ],
+              "caption": "Display slot 15 · image 3"
+            }
+          ]
+        },
+        {
           "id": "simvq_65536",
           "title": "SimVQ, 65536",
           "meta": "Display order is controlled by site_config/reconstruction_display_order.json.",
@@ -923,313 +1930,6 @@
                 {
                   "label": "Ours",
                   "src": "assets/reconstruction/simvq_65536/ours/3.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 15 · image 3"
-            }
-          ]
-        },
-        {
-          "id": "vqgan_65536",
-          "title": "VQGAN, 65536",
-          "meta": "Display order is controlled by site_config/reconstruction_display_order.json.",
-          "slides": [
-            {
-              "sample_id": 1,
-              "image_id": 4,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/4.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/4.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/4.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 1 · image 4"
-            },
-            {
-              "sample_id": 2,
-              "image_id": 7,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/7.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/7.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/7.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 2 · image 7"
-            },
-            {
-              "sample_id": 3,
-              "image_id": 13,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/13.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/13.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/13.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 3 · image 13"
-            },
-            {
-              "sample_id": 4,
-              "image_id": 9,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/9.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/9.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/9.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 4 · image 9"
-            },
-            {
-              "sample_id": 5,
-              "image_id": 10,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/10.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/10.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/10.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 5 · image 10"
-            },
-            {
-              "sample_id": 6,
-              "image_id": 11,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/11.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/11.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/11.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 6 · image 11"
-            },
-            {
-              "sample_id": 7,
-              "image_id": 6,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/6.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/6.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/6.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 7 · image 6"
-            },
-            {
-              "sample_id": 8,
-              "image_id": 14,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/14.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/14.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/14.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 8 · image 14"
-            },
-            {
-              "sample_id": 9,
-              "image_id": 5,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/5.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/5.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/5.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 9 · image 5"
-            },
-            {
-              "sample_id": 10,
-              "image_id": 1,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/1.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/1.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/1.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 10 · image 1"
-            },
-            {
-              "sample_id": 11,
-              "image_id": 15,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/15.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/15.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/15.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 11 · image 15"
-            },
-            {
-              "sample_id": 12,
-              "image_id": 8,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/8.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/8.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/8.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 12 · image 8"
-            },
-            {
-              "sample_id": 13,
-              "image_id": 2,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/2.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/2.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/2.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 13 · image 2"
-            },
-            {
-              "sample_id": 14,
-              "image_id": 12,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/12.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/12.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/12.png",
-                  "highlight": true
-                }
-              ],
-              "caption": "Display slot 14 · image 12"
-            },
-            {
-              "sample_id": 15,
-              "image_id": 3,
-              "cards": [
-                {
-                  "label": "GT",
-                  "src": "assets/reconstruction/vqgan_65536/source/3.png"
-                },
-                {
-                  "label": "VQGAN",
-                  "src": "assets/reconstruction/vqgan_65536/baseline/3.png"
-                },
-                {
-                  "label": "Ours",
-                  "src": "assets/reconstruction/vqgan_65536/ours/3.png",
                   "highlight": true
                 }
               ],
