@@ -25,7 +25,7 @@ body {
 }
 
 .page-shell {
-  max-width: 1600px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -125,95 +125,52 @@ h1 {
 .gallery-track {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
-.method-row {
+/* --- Per-sample row: GT | Baseline | Ours --- */
+
+.sample-row {
+  display: grid;
+  gap: 12px;
+  padding: 12px;
   border: 1px solid var(--border);
   border-radius: 14px;
-  padding: 16px;
   background: var(--soft);
 }
 
-.method-row-highlight {
-  background: var(--accent-soft);
-  border-color: #bfd1fd;
+.sample-cell {
+  margin: 0;
+  text-align: center;
 }
 
-.method-row-label {
-  font-size: 20px;
+.cell-label {
+  font-size: 15px;
   font-weight: 700;
-  color: var(--text);
-  margin-bottom: 12px;
-  padding-left: 4px;
+  color: var(--muted);
+  margin-bottom: 6px;
 }
 
-.method-row-highlight .method-row-label {
+.sample-cell.highlight .cell-label {
   color: var(--accent);
 }
 
-.method-row-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 10px;
-}
-
-.method-image-card {
-  margin: 0;
-}
-
-.method-image-card img {
+.sample-cell img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 8px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
   background: white;
-  border: 1px solid rgba(15, 23, 42, 0.08);
 }
 
-.image-card {
-  margin: 0;
-  padding: 12px;
-  border-radius: 16px;
-  border: 1px solid var(--border);
-  background: var(--soft);
-}
-
-.image-card.highlight {
-  background: var(--accent-soft);
+.sample-cell.highlight img {
   border-color: #bfd1fd;
+  box-shadow: 0 0 0 2px var(--accent-soft);
 }
 
-.image-label {
-  margin-bottom: 10px;
-  color: var(--muted);
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.image-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  background: white;
-  border: 1px solid rgba(15, 23, 42, 0.08);
-}
-
-.slide-caption {
-  margin: 12px 4px 0;
-  color: var(--muted);
-  font-size: 17px;
-  line-height: 1.5;
-}
-
-@media (max-width: 900px) {
-  .comparison-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .method-row-images {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+@media (max-width: 700px) {
+  .sample-row {
+    grid-template-columns: 1fr !important;
   }
 }

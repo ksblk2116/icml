@@ -6,21 +6,6 @@ async function loadSiteData() {
   return response.json();
 }
 
-function buildImageCard(cardData, comparisonTitle, sampleId) {
-  const template = document.getElementById("image-card-template");
-  const card = template.content.firstElementChild.cloneNode(true);
-  const labelNode = card.querySelector(".image-label");
-  const imageNode = card.querySelector("img");
-
-  labelNode.textContent = cardData.label;
-  imageNode.src = cardData.src;
-  imageNode.alt = `${comparisonTitle} · ${cardData.label} · sample ${sampleId}`;
-  if (cardData.highlight) {
-    card.classList.add("highlight");
-  }
-  return card;
-}
-
 function renderComparison(container, comparison) {
   const comparisonTemplate = document.getElementById("comparison-template");
   const comparisonElement =
@@ -42,46 +27,32 @@ function renderComparison(container, comparison) {
   const galleryLimit = comparison.gallery_limit || slides.length;
   const visibleSlides = slides.slice(0, galleryLimit);
 
-  if (visibleSlides.length === 0) {
-    container.appendChild(comparisonElement);
-    return;
-  }
-
-  const labels = visibleSlides[0].cards.map((c) => c.label);
-  const highlightFlags = visibleSlides[0].cards.map((c) => !!c.highlight);
-
-  labels.forEach((label, labelIndex) => {
+  visibleSlides.forEach((slideData) => {
     const row = document.createElement("div");
-    row.className = "method-row";
-    if (highlightFlags[labelIndex]) {
-      row.classList.add("method-row-highlight");
-    }
+    row.className = "sample-row";
 
-    const rowLabel = document.createElement("div");
-    rowLabel.className = "method-row-label";
-    rowLabel.textContent = label;
-    row.appendChild(rowLabel);
+    const cols = slideData.cards.length;
+    row.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
 
-    const rowImages = document.createElement("div");
-    rowImages.className = "method-row-images";
+    slideData.cards.forEach((cardData) => {
+      const cell = document.createElement("figure");
+      cell.className = "sample-cell";
+      if (cardData.highlight) cell.classList.add("highlight");
 
-    visibleSlides.forEach((slideData) => {
-      const cardData = slideData.cards[labelIndex];
-      if (!cardData) return;
-
-      const fig = document.createElement("figure");
-      fig.className = "method-image-card";
+      const label = document.createElement("figcaption");
+      label.className = "cell-label";
+      label.textContent = cardData.label;
+      cell.appendChild(label);
 
       const img = document.createElement("img");
       img.loading = "lazy";
       img.src = cardData.src;
       img.alt = `${comparison.title} · ${cardData.label} · sample ${slideData.sample_id}`;
-      fig.appendChild(img);
+      cell.appendChild(img);
 
-      rowImages.appendChild(fig);
+      row.appendChild(cell);
     });
 
-    row.appendChild(rowImages);
     track.appendChild(row);
   });
 
