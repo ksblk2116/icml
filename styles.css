@@ -164,6 +164,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 18px;
+  justify-items: center;
   transform: none !important;
 }
 
@@ -173,11 +174,21 @@ h1 {
 }
 
 .gallery-slide {
+  width: min(100%, 1120px);
   min-width: 0;
-  padding: 4px 2px;
+  padding: 8px 10px;
   border: 1px solid var(--border);
   border-radius: 16px;
   background: #ffffff;
+}
+
+.gallery-slide .slide-grid {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.gallery-slide .slide-caption {
+  text-align: center;
 }
 
 .slide-grid {
