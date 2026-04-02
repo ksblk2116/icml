@@ -156,9 +156,28 @@ h1 {
   will-change: transform;
 }
 
+.gallery-viewport {
+  overflow: visible;
+}
+
+.gallery-track {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  transform: none !important;
+}
+
 .slide {
   min-width: 100%;
   padding: 4px 2px;
+}
+
+.gallery-slide {
+  min-width: 0;
+  padding: 4px 2px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: #ffffff;
 }
 
 .slide-grid {

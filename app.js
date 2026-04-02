@@ -44,6 +44,35 @@ function renderComparison(container, comparison) {
 
   const track = comparisonElement.querySelector(".slider-track");
   const slides = comparison.slides || [];
+  const displayMode = comparison.display_mode || "slider";
+
+  if (displayMode === "gallery") {
+    comparisonElement.classList.add("gallery-comparison");
+    const controls = comparisonElement.querySelector(".slider-controls");
+    const viewport = comparisonElement.querySelector(".slider-viewport");
+    controls.remove();
+    viewport.classList.add("gallery-viewport");
+    track.classList.add("gallery-track");
+
+    const galleryLimit = comparison.gallery_limit || slides.length;
+    slides.slice(0, galleryLimit).forEach((slideData) => {
+      const slideElement = slideTemplate.content.firstElementChild.cloneNode(true);
+      slideElement.classList.add("gallery-slide");
+      const grid = slideElement.querySelector(".slide-grid");
+      grid.style.gridTemplateColumns = `repeat(${slideData.cards.length}, minmax(0, 1fr))`;
+
+      slideData.cards.forEach((cardData) => {
+        grid.appendChild(buildImageCard(cardData, comparison.title, slideData.sample_id));
+      });
+
+      const caption = slideElement.querySelector(".slide-caption");
+      caption.textContent = slideData.caption || `Sample ${slideData.sample_id}`;
+      track.appendChild(slideElement);
+    });
+
+    container.appendChild(comparisonElement);
+    return;
+  }
 
   slides.forEach((slideData) => {
     const slideElement = slideTemplate.content.firstElementChild.cloneNode(true);

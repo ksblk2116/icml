@@ -1014,7 +1014,9 @@
               ],
               "caption": "Display slot 50 · image 50"
             }
-          ]
+          ],
+          "display_mode": "gallery",
+          "gallery_limit": 20
         },
         {
           "id": "ibq_16384",
@@ -1321,7 +1323,9 @@
               ],
               "caption": "Display slot 15 · image 3"
             }
-          ]
+          ],
+          "display_mode": "slider",
+          "gallery_limit": null
         },
         {
           "id": "simvq_262144",
@@ -1628,7 +1632,9 @@
               ],
               "caption": "Display slot 15 · image 3"
             }
-          ]
+          ],
+          "display_mode": "slider",
+          "gallery_limit": null
         },
         {
           "id": "simvq_65536",
@@ -1935,7 +1941,9 @@
               ],
               "caption": "Display slot 15 · image 3"
             }
-          ]
+          ],
+          "display_mode": "slider",
+          "gallery_limit": null
         }
       ]
     },
